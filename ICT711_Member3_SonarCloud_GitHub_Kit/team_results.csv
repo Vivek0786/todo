@@ -1,0 +1,17 @@
+case_id,owner,feature,description,manual_result,manual_time_s,automated_result,automated_time_s,notes
+M1-01,Member 1,Task lists,Staff user creates a task list,Pass,,Pass,,Manual and automated times missing; confirm the executed test code (draft appendix shows stubs)
+M1-02,Member 1,Task lists,Duplicate list name within the same group,Pass,,Error,,Manual: friendly warning shown. Automated: IntegrityError then TransactionManagementError - investigate test design vs app defect
+M1-03,Member 1,Task lists,Regular user attempts staff-only list creation,Inconclusive,,Pass,,Manual: login redirect only
+M1-04,Member 1,Task lists,Staff user deletes a test list,Pass,,Pass,,
+M2-01,Member 2,Tasks,Create a task with valid information,Pass,40.24,Pass,0.377,
+M2-02,Member 2,Tasks,Submit a task without its required title,Pass,11.01,Pass,0.0084,Browser blocks the form; server rejects direct POST
+M2-03,Member 2,Tasks,Edit a task and verify saved changes,Pass,37.66,Pass,0.0289,
+M2-04,Member 2,Tasks,Change task completion status,Pass,11.53,Pass,0.0199,
+M3-01,Member 3,Comments,Add a valid task comment,,,,,
+M3-02,Member 3,Comments,Submit an empty comment and check validation,,,,,Browser blocks empty form (client-side only); server accepts blank comment - defect D-M3-01
+M3-03,Member 3,Search,Search for a known task keyword,,,,,
+M3-04,Member 3,Search,Search for a keyword with no matching tasks,,,,,
+M4-01,Member 4,Security,Unauthenticated user requests a protected page,,,,,
+M4-02,Member 4,Security,User requests another group's task-list URL,,,,,
+M4-03,Member 4,Security,User requests another group's individual-task URL,,,,,
+M4-04,Member 4,Security,Log out then access a protected page,,,,,
