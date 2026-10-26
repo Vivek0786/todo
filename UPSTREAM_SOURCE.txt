@@ -1,0 +1,4 @@
+Original package: django-todo 2.7.0
+Installed source: C:\ict711\venv\Lib\site-packages\todo
+Coverage generated from: C:\ict711\gtd\coverage.xml
+Date copied: 2026-10-26 14:07:36

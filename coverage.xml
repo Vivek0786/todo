@@ -1,0 +1,1374 @@
+<?xml version='1.0' encoding='utf-8'?>
+<coverage version="7.17.0" timestamp="1792997282704" lines-valid="1168" lines-covered="442" line-rate="0.3784" branches-valid="300" branches-covered="31" branch-rate="0.1033" complexity="0">
+	
+	
+	<sources>
+		<source>.</source></sources>
+	<packages>
+		<package name="C:.ict711.venv.Lib.site-packages.todo" line-rate="0.684" branch-rate="0.2759" complexity="0">
+			<classes>
+				<class name="__init__.py" filename="todo/__init__.py" complexity="0" line-rate="0.6" branch-rate="1">
+					<methods />
+					<lines>
+						<line number="2" hits="1" />
+						<line number="5" hits="1" />
+						<line number="6" hits="1" />
+						<line number="7" hits="0" />
+						<line number="9" hits="0" />
+					</lines>
+				</class>
+				<class name="admin.py" filename="todo/admin.py" complexity="0" line-rate="0.5789" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="2" hits="1" />
+						<line number="4" hits="1" />
+						<line number="5" hits="1" />
+						<line number="7" hits="1" />
+						<line number="10" hits="1" />
+						<line number="11" hits="0" />
+						<line number="12" hits="0" />
+						<line number="13" hits="0" />
+						<line number="14" hits="0" />
+						<line number="15" hits="0" />
+						<line number="16" hits="0" />
+						<line number="20" hits="0" />
+						<line number="22" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="23,30" />
+						<line number="23" hits="0" />
+						<line number="24" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="25,29" />
+						<line number="25" hits="0" />
+						<line number="26" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="27,28" />
+						<line number="27" hits="0" />
+						<line number="28" hits="0" />
+						<line number="29" hits="0" />
+						<line number="30" hits="0" />
+						<line number="33" hits="1" />
+						<line number="36" hits="1" />
+						<line number="37" hits="1" />
+						<line number="38" hits="1" />
+						<line number="39" hits="1" />
+						<line number="40" hits="1" />
+						<line number="41" hits="1" />
+						<line number="44" hits="1" />
+						<line number="45" hits="1" />
+						<line number="48" hits="1" />
+						<line number="49" hits="1" />
+						<line number="50" hits="1" />
+						<line number="53" hits="1" />
+						<line number="54" hits="1" />
+						<line number="55" hits="1" />
+						<line number="56" hits="1" />
+					</lines>
+				</class>
+				<class name="check.py" filename="todo/check.py" complexity="0" line-rate="0.8333" branch-rate="0.5">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="5" hits="1" />
+						<line number="6" hits="1" />
+						<line number="7" hits="1" />
+						<line number="8" hits="1" />
+						<line number="10" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="11" />
+						<line number="11" hits="0" />
+						<line number="13" hits="1" />
+						<line number="14" hits="1" />
+						<line number="15" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="16" />
+						<line number="16" hits="0" />
+						<line number="17" hits="1" />
+					</lines>
+				</class>
+				<class name="defaults.py" filename="todo/defaults.py" complexity="0" line-rate="0.8571" branch-rate="0.5">
+					<methods />
+					<lines>
+						<line number="2" hits="1" />
+						<line number="4" hits="1" />
+						<line number="20" hits="1" />
+						<line number="24" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="25" />
+						<line number="25" hits="0" />
+						<line number="27" hits="1" />
+						<line number="28" hits="1" />
+					</lines>
+				</class>
+				<class name="features.py" filename="todo/features.py" complexity="0" line-rate="0.8" branch-rate="0.5">
+					<methods />
+					<lines>
+						<line number="5" hits="1" />
+						<line number="6" hits="1" />
+						<line number="7" hits="1" />
+						<line number="8" hits="0" />
+						<line number="9" hits="0" />
+						<line number="11" hits="1" />
+						<line number="12" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="exit" />
+						<line number="13" hits="1" />
+						<line number="15" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="exit" />
+						<line number="16" hits="1" />
+					</lines>
+				</class>
+				<class name="forms.py" filename="todo/forms.py" complexity="0" line-rate="0.8036" branch-rate="0.5">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="3" hits="1" />
+						<line number="4" hits="1" />
+						<line number="5" hits="1" />
+						<line number="6" hits="1" />
+						<line number="9" hits="1" />
+						<line number="14" hits="1" />
+						<line number="15" hits="0" />
+						<line number="16" hits="0" />
+						<line number="17" hits="0" />
+						<line number="23" hits="1" />
+						<line number="24" hits="1" />
+						<line number="25" hits="1" />
+						<line number="28" hits="1" />
+						<line number="35" hits="1" />
+						<line number="37" hits="0" />
+						<line number="39" hits="1" />
+						<line number="41" hits="0" />
+						<line number="44" hits="1" />
+						<line number="48" hits="1" />
+						<line number="49" hits="1" />
+						<line number="50" hits="1" />
+						<line number="51" hits="1" />
+						<line number="52" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="54" />
+						<line number="53" hits="1" />
+						<line number="54" hits="1" />
+						<line number="55" hits="1" />
+						<line number="63" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="64" />
+						<line number="64" hits="0" />
+						<line number="65" hits="0" />
+						<line number="66" hits="0" />
+						<line number="67" hits="0" />
+						<line number="68" hits="0" />
+						<line number="70" hits="1" />
+						<line number="71" hits="1" />
+						<line number="72" hits="1" />
+						<line number="76" hits="1" />
+						<line number="81" hits="1" />
+						<line number="83" hits="1" />
+						<line number="85" hits="1" />
+						<line number="87" hits="1" />
+						<line number="89" hits="1" />
+						<line number="91" hits="1" />
+						<line number="94" hits="0" />
+						<line number="96" hits="1" />
+						<line number="97" hits="1" />
+						<line number="98" hits="1" />
+						<line number="101" hits="1" />
+						<line number="104" hits="1" />
+						<line number="105" hits="1" />
+						<line number="106" hits="1" />
+						<line number="108" hits="1" />
+						<line number="109" hits="1" />
+						<line number="110" hits="1" />
+						<line number="121" hits="1" />
+						<line number="124" hits="1" />
+					</lines>
+				</class>
+				<class name="models.py" filename="todo/models.py" complexity="0" line-rate="0.6733" branch-rate="0.125">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="3" hits="1" />
+						<line number="4" hits="1" />
+						<line number="5" hits="1" />
+						<line number="7" hits="1" />
+						<line number="8" hits="1" />
+						<line number="9" hits="1" />
+						<line number="10" hits="1" />
+						<line number="11" hits="1" />
+						<line number="12" hits="1" />
+						<line number="15" hits="1" />
+						<line number="19" hits="0" />
+						<line number="22" hits="1" />
+						<line number="32" hits="1" />
+						<line number="33" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="34,35" />
+						<line number="34" hits="0" />
+						<line number="35" hits="0" />
+						<line number="36" hits="0" />
+						<line number="38" hits="1" />
+						<line number="39" hits="0" />
+						<line number="42" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="exit,43" />
+						<line number="43" hits="0" />
+						<line number="44" hits="0" />
+						<line number="45" hits="0" />
+						<line number="46" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="47,51" />
+						<line number="47" hits="0" />
+						<line number="51" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="exit,52" />
+						<line number="52" hits="0" />
+						<line number="55" hits="1" />
+						<line number="56" hits="1" />
+						<line number="57" hits="1" />
+						<line number="58" hits="1" />
+						<line number="60" hits="1" />
+						<line number="61" hits="1" />
+						<line number="63" hits="1" />
+						<line number="64" hits="1" />
+						<line number="65" hits="1" />
+						<line number="68" hits="1" />
+						<line number="71" hits="1" />
+						<line number="72" hits="1" />
+						<line number="73" hits="1" />
+						<line number="74" hits="1" />
+						<line number="75" hits="1" />
+						<line number="76" hits="1" />
+						<line number="77" hits="1" />
+						<line number="78" hits="1" />
+						<line number="85" hits="1" />
+						<line number="90" hits="1" />
+						<line number="91" hits="1" />
+						<line number="94" hits="1" />
+						<line number="96" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="exit,97" />
+						<line number="97" hits="0" />
+						<line number="99" hits="1" />
+						<line number="100" hits="0" />
+						<line number="102" hits="1" />
+						<line number="103" hits="0" />
+						<line number="106" hits="1" />
+						<line number="108" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="109" />
+						<line number="109" hits="0" />
+						<line number="110" hits="1" />
+						<line number="112" hits="1" />
+						<line number="113" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="114,119" />
+						<line number="114" hits="0" />
+						<line number="119" hits="0" />
+						<line number="120" hits="0" />
+						<line number="121" hits="0" />
+						<line number="123" hits="1" />
+						<line number="124" hits="1" />
+						<line number="127" hits="1" />
+						<line number="133" hits="1" />
+						<line number="137" hits="1" />
+						<line number="138" hits="1" />
+						<line number="139" hits="1" />
+						<line number="140" hits="1" />
+						<line number="142" hits="1" />
+						<line number="144" hits="1" />
+						<line number="146" hits="1" />
+						<line number="148" hits="1" />
+						<line number="149" hits="1" />
+						<line number="150" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="153" />
+						<line number="151" hits="1" />
+						<line number="153" hits="0" />
+						<line number="154" hits="0" />
+						<line number="156" hits="1" />
+						<line number="157" hits="1" />
+						<line number="158" hits="0" />
+						<line number="160" hits="0" />
+						<line number="162" hits="1" />
+						<line number="163" hits="0" />
+						<line number="166" hits="1" />
+						<line number="171" hits="1" />
+						<line number="172" hits="1" />
+						<line number="173" hits="1" />
+						<line number="174" hits="1" />
+						<line number="176" hits="1" />
+						<line number="177" hits="0" />
+						<line number="179" hits="1" />
+						<line number="180" hits="0" />
+						<line number="181" hits="0" />
+						<line number="183" hits="1" />
+						<line number="184" hits="0" />
+					</lines>
+				</class>
+				<class name="urls.py" filename="todo/urls.py" complexity="0" line-rate="1" branch-rate="0.5">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="2" hits="1" />
+						<line number="4" hits="1" />
+						<line number="5" hits="1" />
+						<line number="7" hits="1" />
+						<line number="9" hits="1" />
+						<line number="32" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="42" />
+						<line number="34" hits="1" />
+						<line number="36" hits="1" />
+						<line number="42" hits="1" />
+					</lines>
+				</class>
+				<class name="utils.py" filename="todo/utils.py" complexity="0" line-rate="0.5862" branch-rate="0.3">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="2" hits="1" />
+						<line number="3" hits="1" />
+						<line number="4" hits="1" />
+						<line number="6" hits="1" />
+						<line number="7" hits="1" />
+						<line number="8" hits="1" />
+						<line number="9" hits="1" />
+						<line number="11" hits="1" />
+						<line number="12" hits="1" />
+						<line number="14" hits="1" />
+						<line number="17" hits="1" />
+						<line number="23" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="27" />
+						<line number="24" hits="1" />
+						<line number="27" hits="0" />
+						<line number="30" hits="1" />
+						<line number="31" hits="1" />
+						<line number="34" hits="1" />
+						<line number="36" hits="1" />
+						<line number="37" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="40" />
+						<line number="38" hits="1" />
+						<line number="40" hits="0" />
+						<line number="42" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="43,45" />
+						<line number="43" hits="0" />
+						<line number="45" hits="0" />
+						<line number="48" hits="1" />
+						<line number="50" hits="1" />
+						<line number="51" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="54" />
+						<line number="52" hits="1" />
+						<line number="54" hits="0" />
+						<line number="55" hits="0" />
+						<line number="56" hits="0" />
+						<line number="59" hits="1" />
+						<line number="61" hits="1" />
+						<line number="62" hits="1" />
+						<line number="63" hits="1" />
+						<line number="65" hits="1" />
+						<line number="66" hits="1" />
+						<line number="68" hits="1" />
+						<line number="84" hits="1" />
+						<line number="85" hits="1" />
+						<line number="87" hits="1" />
+						<line number="88" hits="1" />
+						<line number="102" hits="1" />
+						<line number="105" hits="1" />
+						<line number="111" hits="0" />
+						<line number="112" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="113,115" />
+						<line number="113" hits="0" />
+						<line number="115" hits="0" />
+						<line number="116" hits="0" />
+						<line number="117" hits="0" />
+						<line number="121" hits="0" />
+						<line number="122" hits="0" />
+						<line number="125" hits="1" />
+						<line number="128" hits="1" />
+						<line number="129" hits="1" />
+						<line number="130" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="131" />
+						<line number="131" hits="0" />
+						<line number="133" hits="1" />
+						<line number="139" hits="1" />
+						<line number="140" hits="1" />
+						<line number="141" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="143" />
+						<line number="142" hits="1" />
+						<line number="143" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="144" />
+						<line number="144" hits="0" />
+						<line number="145" hits="1" />
+						<line number="147" hits="1" />
+						<line number="150" hits="1" />
+						<line number="152" hits="0" />
+						<line number="153" hits="0" />
+						<line number="154" hits="0" />
+						<line number="155" hits="0" />
+						<line number="156" hits="0" />
+						<line number="158" hits="0" />
+						<line number="159" hits="0" />
+						<line number="160" hits="0" />
+						<line number="163" hits="1" />
+						<line number="165" hits="0" />
+						<line number="166" hits="0" />
+						<line number="167" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="168,171" />
+						<line number="168" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="169,171" />
+						<line number="169" hits="0" />
+						<line number="171" hits="0" />
+						<line number="172" hits="0" />
+						<line number="174" hits="0" />
+						<line number="175" hits="0" />
+						<line number="176" hits="0" />
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="C:.ict711.venv.Lib.site-packages.todo.mail" line-rate="0" branch-rate="0" complexity="0">
+			<classes>
+				<class name="delivery.py" filename="todo/mail/delivery.py" complexity="0" line-rate="0" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="0" />
+						<line number="4" hits="0" />
+						<line number="5" hits="0" />
+						<line number="6" hits="0" />
+						<line number="7" hits="0" />
+						<line number="9" hits="0" />
+						<line number="10" hits="0" />
+						<line number="11" hits="0" />
+						<line number="12" hits="0" />
+						<line number="13" hits="0" />
+						<line number="15" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="16,18" />
+						<line number="16" hits="0" />
+						<line number="18" hits="0" />
+						<line number="19" hits="0" />
+						<line number="20" hits="0" />
+						<line number="22" hits="0" />
+						<line number="25" hits="0" />
+						<line number="26" hits="0" />
+						<line number="27" hits="0" />
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="C:.ict711.venv.Lib.site-packages.todo.mail.consumers" line-rate="0" branch-rate="0" complexity="0">
+			<classes>
+				<class name="__init__.py" filename="todo/mail/consumers/__init__.py" complexity="0" line-rate="0" branch-rate="1">
+					<methods />
+					<lines>
+						<line number="1" hits="0" />
+						<line number="2" hits="0" />
+						<line number="5" hits="0" />
+						<line number="7" hits="0" />
+						<line number="9" hits="0" />
+					</lines>
+				</class>
+				<class name="tracker.py" filename="todo/mail/consumers/tracker.py" complexity="0" line-rate="0" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="0" />
+						<line number="2" hits="0" />
+						<line number="4" hits="0" />
+						<line number="5" hits="0" />
+						<line number="6" hits="0" />
+						<line number="7" hits="0" />
+						<line number="8" hits="0" />
+						<line number="9" hits="0" />
+						<line number="10" hits="0" />
+						<line number="11" hits="0" />
+						<line number="13" hits="0" />
+						<line number="16" hits="0" />
+						<line number="17" hits="0" />
+						<line number="18" hits="0" />
+						<line number="19" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="20,22" />
+						<line number="20" hits="0" />
+						<line number="22" hits="0" />
+						<line number="23" hits="0" />
+						<line number="26" hits="0" />
+						<line number="27" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="28,30" />
+						<line number="28" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="27,29" />
+						<line number="29" hits="0" />
+						<line number="30" hits="0" />
+						<line number="33" hits="0" />
+						<line number="34" hits="0" />
+						<line number="35" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="36,38" />
+						<line number="36" hits="0" />
+						<line number="38" hits="0" />
+						<line number="39" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="40,43" />
+						<line number="40" hits="0" />
+						<line number="43" hits="0" />
+						<line number="46" hits="0" />
+						<line number="47" hits="0" />
+						<line number="50" hits="0" />
+						<line number="53" hits="0" />
+						<line number="54" hits="0" />
+						<line number="55" hits="0" />
+						<line number="56" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="57,68" />
+						<line number="57" hits="0" />
+						<line number="58" hits="0" />
+						<line number="59" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="60,63" />
+						<line number="60" hits="0" />
+						<line number="61" hits="0" />
+						<line number="63" hits="0" />
+						<line number="64" hits="0" />
+						<line number="65" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="56,66" />
+						<line number="66" hits="0" />
+						<line number="68" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="69,71" />
+						<line number="69" hits="0" />
+						<line number="71" hits="0" />
+						<line number="72" hits="0" />
+						<line number="75" hits="0" />
+						<line number="76" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="77,80" />
+						<line number="77" hits="0" />
+						<line number="78" hits="0" />
+						<line number="80" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="81,84" />
+						<line number="81" hits="0" />
+						<line number="82" hits="0" />
+						<line number="84" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="85,88" />
+						<line number="85" hits="0" />
+						<line number="86" hits="0" />
+						<line number="88" hits="0" />
+						<line number="101" hits="0" />
+						<line number="102" hits="0" />
+						<line number="107" hits="0" />
+						<line number="108" hits="0" />
+						<line number="110" hits="0" />
+						<line number="115" hits="0" />
+						<line number="125" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="126,128" />
+						<line number="126" hits="0" />
+						<line number="128" hits="0" />
+						<line number="129" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="130,136" />
+						<line number="130" hits="0" />
+						<line number="136" hits="0" />
+						<line number="138" hits="0" />
+						<line number="144" hits="0" />
+						<line number="147" hits="0" />
+						<line number="150" hits="0" />
+						<line number="151" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="exit,152" />
+						<line number="152" hits="0" />
+						<line number="153" hits="0" />
+						<line number="154" hits="0" />
+						<line number="156" hits="0" />
+						<line number="159" hits="0" />
+						<line number="162" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="163,165" />
+						<line number="163" hits="0" />
+						<line number="165" hits="0" />
+						<line number="167" hits="0" />
+						<line number="168" hits="0" />
+						<line number="169" hits="0" />
+						<line number="171" hits="0" />
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="C:.ict711.venv.Lib.site-packages.todo.mail.producers" line-rate="0" branch-rate="0" complexity="0">
+			<classes>
+				<class name="__init__.py" filename="todo/mail/producers/__init__.py" complexity="0" line-rate="0" branch-rate="1">
+					<methods />
+					<lines>
+						<line number="1" hits="0" />
+						<line number="2" hits="0" />
+						<line number="5" hits="0" />
+						<line number="7" hits="0" />
+						<line number="9" hits="0" />
+					</lines>
+				</class>
+				<class name="imap.py" filename="todo/mail/producers/imap.py" complexity="0" line-rate="0" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="0" />
+						<line number="2" hits="0" />
+						<line number="3" hits="0" />
+						<line number="4" hits="0" />
+						<line number="5" hits="0" />
+						<line number="7" hits="0" />
+						<line number="8" hits="0" />
+						<line number="10" hits="0" />
+						<line number="13" hits="0" />
+						<line number="14" hits="0" />
+						<line number="15" hits="0" />
+						<line number="18" hits="0" />
+						<line number="19" hits="0" />
+						<line number="20" hits="0" />
+						<line number="21" hits="0" />
+						<line number="22" hits="0" />
+						<line number="23" hits="0" />
+						<line number="24" hits="0" />
+						<line number="26" hits="0" />
+						<line number="29" hits="0" />
+						<line number="30" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="exit,31" />
+						<line number="31" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="32,34" />
+						<line number="32" hits="0" />
+						<line number="34" hits="0" />
+						<line number="35" hits="0" />
+						<line number="36" hits="0" />
+						<line number="37" hits="0" />
+						<line number="40" hits="0" />
+						<line number="41" hits="0" />
+						<line number="42" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="exit,43" />
+						<line number="43" hits="0" />
+						<line number="44" hits="0" />
+						<line number="47" hits="0" />
+						<line number="57" hits="0" />
+						<line number="58" hits="0" />
+						<line number="60" hits="0" />
+						<line number="61" hits="0" />
+						<line number="63" hits="0" />
+						<line number="65" hits="0" />
+						<line number="67" hits="0" />
+						<line number="68" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="69,80" />
+						<line number="69" hits="0" />
+						<line number="70" hits="0" />
+						<line number="71" hits="0" />
+						<line number="72" hits="0" />
+						<line number="73" hits="0" />
+						<line number="74" hits="0" />
+						<line number="76" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="68,78" />
+						<line number="78" hits="0" />
+						<line number="80" hits="0" />
+						<line number="82" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="exit,84" />
+						<line number="84" hits="0" />
+						<line number="86" hits="0" />
+						<line number="87" hits="0" />
+						<line number="88" hits="0" />
+						<line number="89" hits="0" />
+						<line number="92" hits="0" />
+						<line number="93" hits="0" />
+						<line number="94" hits="0" />
+						<line number="98" hits="0" />
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="C:.ict711.venv.Lib.site-packages.todo.management.commands" line-rate="0" branch-rate="0" complexity="0">
+			<classes>
+				<class name="hopper.py" filename="todo/management/commands/hopper.py" complexity="0" line-rate="0" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="0" />
+						<line number="2" hits="0" />
+						<line number="3" hits="0" />
+						<line number="4" hits="0" />
+						<line number="6" hits="0" />
+						<line number="7" hits="0" />
+						<line number="8" hits="0" />
+						<line number="9" hits="0" />
+						<line number="11" hits="0" />
+						<line number="14" hits="0" />
+						<line number="17" hits="0" />
+						<line number="20" hits="0" />
+						<line number="21" hits="0" />
+						<line number="22" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="23,25" />
+						<line number="23" hits="0" />
+						<line number="25" hits="0" />
+						<line number="28" hits="0" />
+						<line number="30" hits="0" />
+						<line number="31" hits="0" />
+						<line number="32" hits="0" />
+						<line number="33" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="34,35" />
+						<line number="34" hits="0" />
+						<line number="35" hits="0" />
+						<line number="38" hits="0" />
+						<line number="39" hits="0" />
+						<line number="41" hits="0" />
+						<line number="42" hits="0" />
+						<line number="49" hits="0" />
+						<line number="51" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="53,57" />
+						<line number="53" hits="0" />
+						<line number="54" hits="0" />
+						<line number="55" hits="0" />
+						<line number="57" hits="0" />
+						<line number="60" hits="0" />
+						<line number="61" hits="0" />
+						<line number="64" hits="0" />
+						<line number="65" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="66,92" />
+						<line number="66" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="67,69" />
+						<line number="67" hits="0" />
+						<line number="69" hits="0" />
+						<line number="77" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="78,80" />
+						<line number="78" hits="0" />
+						<line number="80" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="81,83" />
+						<line number="81" hits="0" />
+						<line number="83" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="65,84" />
+						<line number="84" hits="0" />
+						<line number="85" hits="0" />
+						<line number="86" hits="0" />
+						<line number="87" hits="0" />
+						<line number="88" hits="0" />
+						<line number="89" hits="0" />
+						<line number="92" hits="0" />
+						<line number="93" hits="0" />
+						<line number="94" hits="0" />
+						<line number="96" hits="0" />
+						<line number="101" hits="0" />
+						<line number="104" hits="0" />
+						<line number="105" hits="0" />
+						<line number="107" hits="0" />
+						<line number="108" hits="0" />
+						<line number="109" hits="0" />
+						<line number="111" hits="0" />
+						<line number="112" hits="0" />
+						<line number="113" hits="0" />
+						<line number="114" hits="0" />
+						<line number="117" hits="0" />
+						<line number="120" hits="0" />
+						<line number="121" hits="0" />
+						<line number="123" hits="0" />
+						<line number="124" hits="0" />
+						<line number="125" hits="0" />
+						<line number="126" hits="0" />
+						<line number="127" hits="0" />
+						<line number="128" hits="0" />
+						<line number="131" hits="0" />
+						<line number="133" hits="0" />
+						<line number="134" hits="0" />
+						<line number="136" hits="0" />
+						<line number="137" hits="0" />
+						<line number="139" hits="0" />
+						<line number="141" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="142,145" />
+						<line number="142" hits="0" />
+						<line number="145" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="146,148" />
+						<line number="146" hits="0" />
+						<line number="148" hits="0" />
+						<line number="149" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="150,152" />
+						<line number="150" hits="0" />
+						<line number="152" hits="0" />
+						<line number="155" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="exit,156" />
+						<line number="156" hits="0" />
+					</lines>
+				</class>
+				<class name="import_csv.py" filename="todo/management/commands/import_csv.py" complexity="0" line-rate="0" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="0" />
+						<line number="2" hits="0" />
+						<line number="3" hits="0" />
+						<line number="5" hits="0" />
+						<line number="7" hits="0" />
+						<line number="10" hits="0" />
+						<line number="11" hits="0" />
+						<line number="16" hits="0" />
+						<line number="18" hits="0" />
+						<line number="22" hits="0" />
+						<line number="24" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="25,28" />
+						<line number="25" hits="0" />
+						<line number="26" hits="0" />
+						<line number="28" hits="0" />
+						<line number="30" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="31,35" />
+						<line number="31" hits="0" />
+						<line number="32" hits="0" />
+						<line number="35" hits="0" />
+						<line number="36" hits="0" />
+						<line number="37" hits="0" />
+						<line number="40" hits="0" />
+						<line number="41" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="42,47" />
+						<line number="42" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="43,47" />
+						<line number="43" hits="0" />
+						<line number="47" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="48,54" />
+						<line number="48" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="49,54" />
+						<line number="49" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="48,50" />
+						<line number="50" hits="0" />
+						<line number="51" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="49,52" />
+						<line number="52" hits="0" />
+						<line number="54" hits="0" />
+						<line number="55" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="exit,56" />
+						<line number="56" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="exit,57" />
+						<line number="57" hits="0" />
+					</lines>
+				</class>
+				<class name="mail_worker.py" filename="todo/management/commands/mail_worker.py" complexity="0" line-rate="0" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="0" />
+						<line number="2" hits="0" />
+						<line number="3" hits="0" />
+						<line number="5" hits="0" />
+						<line number="6" hits="0" />
+						<line number="8" hits="0" />
+						<line number="11" hits="0" />
+						<line number="14" hits="0" />
+						<line number="15" hits="0" />
+						<line number="17" hits="0" />
+						<line number="18" hits="0" />
+						<line number="19" hits="0" />
+						<line number="21" hits="0" />
+						<line number="22" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="23,26" />
+						<line number="23" hits="0" />
+						<line number="24" hits="0" />
+						<line number="26" hits="0" />
+						<line number="27" hits="0" />
+						<line number="28" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="29,33" />
+						<line number="29" hits="0" />
+						<line number="30" hits="0" />
+						<line number="33" hits="0" />
+						<line number="34" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="35,38" />
+						<line number="35" hits="0" />
+						<line number="38" hits="0" />
+						<line number="39" hits="0" />
+						<line number="41" hits="0" />
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="C:.ict711.venv.Lib.site-packages.todo.operations" line-rate="0.1182" branch-rate="0" complexity="0">
+			<classes>
+				<class name="csv_importer.py" filename="todo/operations/csv_importer.py" complexity="0" line-rate="0.1182" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="2" hits="1" />
+						<line number="3" hits="1" />
+						<line number="4" hits="1" />
+						<line number="6" hits="1" />
+						<line number="7" hits="1" />
+						<line number="9" hits="1" />
+						<line number="11" hits="1" />
+						<line number="14" hits="1" />
+						<line number="19" hits="1" />
+						<line number="20" hits="0" />
+						<line number="21" hits="0" />
+						<line number="22" hits="0" />
+						<line number="23" hits="0" />
+						<line number="24" hits="0" />
+						<line number="26" hits="1" />
+						<line number="35" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="37,40" />
+						<line number="37" hits="0" />
+						<line number="40" hits="0" />
+						<line number="41" hits="0" />
+						<line number="42" hits="0" />
+						<line number="43" hits="0" />
+						<line number="44" hits="0" />
+						<line number="47" hits="0" />
+						<line number="48" hits="0" />
+						<line number="60" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="61,66" />
+						<line number="61" hits="0" />
+						<line number="64" hits="0" />
+						<line number="66" hits="0" />
+						<line number="67" hits="0" />
+						<line number="68" hits="0" />
+						<line number="69" hits="0" />
+						<line number="70" hits="0" />
+						<line number="72" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="73,111" />
+						<line number="73" hits="0" />
+						<line number="75" hits="0" />
+						<line number="76" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="72,79" />
+						<line number="79" hits="0" />
+						<line number="80" hits="0" />
+						<line number="85" hits="0" />
+						<line number="86" hits="0" />
+						<line number="88" hits="0" />
+						<line number="100" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="101,103" />
+						<line number="101" hits="0" />
+						<line number="103" hits="0" />
+						<line number="104" hits="0" />
+						<line number="105" hits="0" />
+						<line number="109" hits="0" />
+						<line number="111" hits="0" />
+						<line number="112" hits="0" />
+						<line number="113" hits="0" />
+						<line number="115" hits="0" />
+						<line number="117" hits="1" />
+						<line number="123" hits="0" />
+						<line number="127" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="128,131" />
+						<line number="128" hits="0" />
+						<line number="129" hits="0" />
+						<line number="131" hits="0" />
+						<line number="132" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="133,138" />
+						<line number="133" hits="0" />
+						<line number="134" hits="0" />
+						<line number="138" hits="0" />
+						<line number="139" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="140,149" />
+						<line number="140" hits="0" />
+						<line number="141" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="142,144" />
+						<line number="142" hits="0" />
+						<line number="144" hits="0" />
+						<line number="145" hits="0" />
+						<line number="149" hits="0" />
+						<line number="150" hits="0" />
+						<line number="151" hits="0" />
+						<line number="152" hits="0" />
+						<line number="153" hits="0" />
+						<line number="154" hits="0" />
+						<line number="158" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="159,164" />
+						<line number="159" hits="0" />
+						<line number="160" hits="0" />
+						<line number="164" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="165,170" />
+						<line number="165" hits="0" />
+						<line number="166" hits="0" />
+						<line number="170" hits="0" />
+						<line number="171" hits="0" />
+						<line number="172" hits="0" />
+						<line number="173" hits="0" />
+						<line number="174" hits="0" />
+						<line number="175" hits="0" />
+						<line number="179" hits="0" />
+						<line number="180" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="181,192" />
+						<line number="181" hits="0" />
+						<line number="182" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="180,183" />
+						<line number="183" hits="0" />
+						<line number="184" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="185,187" />
+						<line number="185" hits="0" />
+						<line number="187" hits="0" />
+						<line number="188" hits="0" />
+						<line number="192" hits="0" />
+						<line number="193" hits="0" />
+						<line number="194" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="195,198" />
+						<line number="195" hits="0" />
+						<line number="198" hits="0" />
+						<line number="201" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="202,206" />
+						<line number="202" hits="0" />
+						<line number="203" hits="0" />
+						<line number="206" hits="0" />
+						<line number="208" hits="1" />
+						<line number="210" hits="0" />
+						<line number="211" hits="0" />
+						<line number="212" hits="0" />
+						<line number="213" hits="0" />
+						<line number="214" hits="0" />
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="C:.ict711.venv.Lib.site-packages.todo.templatetags" line-rate="1" branch-rate="1" complexity="0">
+			<classes>
+				<class name="todo_tags.py" filename="todo/templatetags/todo_tags.py" complexity="0" line-rate="1" branch-rate="1">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="2" hits="1" />
+						<line number="4" hits="1" />
+						<line number="7" hits="1" />
+						<line number="8" hits="1" />
+						<line number="9" hits="1" />
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="C:.ict711.venv.Lib.site-packages.todo.views" line-rate="0.5063" branch-rate="0.1316" complexity="0">
+			<classes>
+				<class name="__init__.py" filename="todo/views/__init__.py" complexity="0" line-rate="1" branch-rate="1">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="2" hits="1" />
+						<line number="3" hits="1" />
+						<line number="4" hits="1" />
+						<line number="5" hits="1" />
+						<line number="6" hits="1" />
+						<line number="7" hits="1" />
+						<line number="8" hits="1" />
+						<line number="9" hits="1" />
+						<line number="10" hits="1" />
+						<line number="11" hits="1" />
+						<line number="12" hits="1" />
+					</lines>
+				</class>
+				<class name="add_list.py" filename="todo/views/add_list.py" complexity="0" line-rate="0.4" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="2" hits="1" />
+						<line number="3" hits="1" />
+						<line number="4" hits="1" />
+						<line number="5" hits="1" />
+						<line number="6" hits="1" />
+						<line number="7" hits="1" />
+						<line number="9" hits="1" />
+						<line number="10" hits="1" />
+						<line number="13" hits="1" />
+						<line number="14" hits="1" />
+						<line number="15" hits="1" />
+						<line number="20" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="21,23" />
+						<line number="21" hits="0" />
+						<line number="23" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="24,40" />
+						<line number="24" hits="0" />
+						<line number="25" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="26,46" />
+						<line number="26" hits="0" />
+						<line number="27" hits="0" />
+						<line number="28" hits="0" />
+						<line number="29" hits="0" />
+						<line number="30" hits="0" />
+						<line number="31" hits="0" />
+						<line number="33" hits="0" />
+						<line number="34" hits="0" />
+						<line number="40" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="42,44" />
+						<line number="42" hits="0" />
+						<line number="44" hits="0" />
+						<line number="46" hits="0" />
+						<line number="48" hits="0" />
+					</lines>
+				</class>
+				<class name="del_list.py" filename="todo/views/del_list.py" complexity="0" line-rate="0.4167" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="2" hits="1" />
+						<line number="3" hits="1" />
+						<line number="4" hits="1" />
+						<line number="5" hits="1" />
+						<line number="7" hits="1" />
+						<line number="8" hits="1" />
+						<line number="11" hits="1" />
+						<line number="12" hits="1" />
+						<line number="13" hits="1" />
+						<line number="16" hits="0" />
+						<line number="20" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="21,22" />
+						<line number="21" hits="0" />
+						<line number="22" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="23,25" />
+						<line number="23" hits="0" />
+						<line number="25" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="26,30" />
+						<line number="26" hits="0" />
+						<line number="27" hits="0" />
+						<line number="28" hits="0" />
+						<line number="30" hits="0" />
+						<line number="31" hits="0" />
+						<line number="32" hits="0" />
+						<line number="34" hits="0" />
+						<line number="41" hits="0" />
+					</lines>
+				</class>
+				<class name="delete_task.py" filename="todo/views/delete_task.py" complexity="0" line-rate="0.55" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="2" hits="1" />
+						<line number="3" hits="1" />
+						<line number="4" hits="1" />
+						<line number="5" hits="1" />
+						<line number="6" hits="1" />
+						<line number="8" hits="1" />
+						<line number="9" hits="1" />
+						<line number="12" hits="1" />
+						<line number="13" hits="1" />
+						<line number="14" hits="1" />
+						<line number="19" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="20,42" />
+						<line number="20" hits="0" />
+						<line number="22" hits="0" />
+						<line number="28" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="34,36" />
+						<line number="34" hits="0" />
+						<line number="36" hits="0" />
+						<line number="38" hits="0" />
+						<line number="39" hits="0" />
+						<line number="42" hits="0" />
+					</lines>
+				</class>
+				<class name="external_add.py" filename="todo/views/external_add.py" complexity="0" line-rate="0.3721" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="2" hits="1" />
+						<line number="3" hits="1" />
+						<line number="4" hits="1" />
+						<line number="5" hits="1" />
+						<line number="6" hits="1" />
+						<line number="7" hits="1" />
+						<line number="8" hits="1" />
+						<line number="9" hits="1" />
+						<line number="11" hits="1" />
+						<line number="12" hits="1" />
+						<line number="13" hits="1" />
+						<line number="14" hits="1" />
+						<line number="17" hits="1" />
+						<line number="18" hits="1" />
+						<line number="19" hits="1" />
+						<line number="27" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="29,33" />
+						<line number="29" hits="0" />
+						<line number="33" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="34,38" />
+						<line number="34" hits="0" />
+						<line number="38" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="39,78" />
+						<line number="39" hits="0" />
+						<line number="41" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="42,80" />
+						<line number="42" hits="0" />
+						<line number="43" hits="0" />
+						<line number="44" hits="0" />
+						<line number="45" hits="0" />
+						<line number="46" hits="0" />
+						<line number="47" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="48,52" />
+						<line number="48" hits="0" />
+						<line number="49" hits="0" />
+						<line number="52" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="53,72" />
+						<line number="53" hits="0" />
+						<line number="56" hits="0" />
+						<line number="59" hits="0" />
+						<line number="60" hits="0" />
+						<line number="67" hits="0" />
+						<line number="68" hits="0" />
+						<line number="72" hits="0" />
+						<line number="75" hits="0" />
+						<line number="78" hits="0" />
+						<line number="80" hits="0" />
+						<line number="82" hits="0" />
+					</lines>
+				</class>
+				<class name="import_csv.py" filename="todo/views/import_csv.py" complexity="0" line-rate="0.4091" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="2" hits="1" />
+						<line number="3" hits="1" />
+						<line number="4" hits="1" />
+						<line number="6" hits="1" />
+						<line number="7" hits="1" />
+						<line number="10" hits="1" />
+						<line number="11" hits="1" />
+						<line number="12" hits="1" />
+						<line number="16" hits="0" />
+						<line number="18" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="19,34" />
+						<line number="19" hits="0" />
+						<line number="21" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="22,25" />
+						<line number="22" hits="0" />
+						<line number="23" hits="0" />
+						<line number="25" hits="0" />
+						<line number="26" hits="0" />
+						<line number="28" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="29,31" />
+						<line number="29" hits="0" />
+						<line number="31" hits="0" />
+						<line number="32" hits="0" />
+						<line number="34" hits="0" />
+					</lines>
+				</class>
+				<class name="list_detail.py" filename="todo/views/list_detail.py" complexity="0" line-rate="0.3243" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="2" hits="1" />
+						<line number="3" hits="1" />
+						<line number="4" hits="1" />
+						<line number="5" hits="1" />
+						<line number="6" hits="1" />
+						<line number="8" hits="1" />
+						<line number="9" hits="1" />
+						<line number="10" hits="1" />
+						<line number="13" hits="1" />
+						<line number="14" hits="1" />
+						<line number="15" hits="1" />
+						<line number="20" hits="0" />
+						<line number="21" hits="0" />
+						<line number="24" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="25,29" />
+						<line number="25" hits="0" />
+						<line number="29" hits="0" />
+						<line number="30" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="31,32" />
+						<line number="31" hits="0" />
+						<line number="32" hits="0" />
+						<line number="35" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="36,38" />
+						<line number="36" hits="0" />
+						<line number="38" hits="0" />
+						<line number="44" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="45,67" />
+						<line number="45" hits="0" />
+						<line number="51" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="52,73" />
+						<line number="52" hits="0" />
+						<line number="53" hits="0" />
+						<line number="54" hits="0" />
+						<line number="57" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="61,63" />
+						<line number="61" hits="0" />
+						<line number="63" hits="0" />
+						<line number="64" hits="0" />
+						<line number="67" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="68,73" />
+						<line number="68" hits="0" />
+						<line number="73" hits="0" />
+						<line number="82" hits="0" />
+					</lines>
+				</class>
+				<class name="list_lists.py" filename="todo/views/list_lists.py" complexity="0" line-rate="0.4583" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="3" hits="1" />
+						<line number="4" hits="1" />
+						<line number="5" hits="1" />
+						<line number="6" hits="1" />
+						<line number="8" hits="1" />
+						<line number="9" hits="1" />
+						<line number="10" hits="1" />
+						<line number="13" hits="1" />
+						<line number="14" hits="1" />
+						<line number="15" hits="1" />
+						<line number="19" hits="0" />
+						<line number="20" hits="0" />
+						<line number="23" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="24,30" />
+						<line number="24" hits="0" />
+						<line number="30" hits="0" />
+						<line number="31" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="32,34" />
+						<line number="32" hits="0" />
+						<line number="34" hits="0" />
+						<line number="37" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="38,40" />
+						<line number="38" hits="0" />
+						<line number="40" hits="0" />
+						<line number="46" hits="0" />
+						<line number="54" hits="0" />
+					</lines>
+				</class>
+				<class name="remove_attachment.py" filename="todo/views/remove_attachment.py" complexity="0" line-rate="0.5" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="2" hits="1" />
+						<line number="3" hits="1" />
+						<line number="4" hits="1" />
+						<line number="5" hits="1" />
+						<line number="6" hits="1" />
+						<line number="8" hits="1" />
+						<line number="9" hits="1" />
+						<line number="12" hits="1" />
+						<line number="13" hits="1" />
+						<line number="18" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="19,40" />
+						<line number="19" hits="0" />
+						<line number="21" hits="0" />
+						<line number="24" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="28,30" />
+						<line number="28" hits="0" />
+						<line number="30" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="31,33" />
+						<line number="31" hits="0" />
+						<line number="33" hits="0" />
+						<line number="37" hits="0" />
+						<line number="40" hits="0" />
+					</lines>
+				</class>
+				<class name="reorder_tasks.py" filename="todo/views/reorder_tasks.py" complexity="0" line-rate="0.4091" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="2" hits="1" />
+						<line number="3" hits="1" />
+						<line number="5" hits="1" />
+						<line number="6" hits="1" />
+						<line number="9" hits="1" />
+						<line number="10" hits="1" />
+						<line number="11" hits="1" />
+						<line number="12" hits="1" />
+						<line number="15" hits="0" />
+						<line number="16" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="18,35" />
+						<line number="18" hits="0" />
+						<line number="21" hits="0" />
+						<line number="22" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="23,35" />
+						<line number="23" hits="0" />
+						<line number="24" hits="0" />
+						<line number="25" hits="0" />
+						<line number="26" hits="0" />
+						<line number="27" hits="0" />
+						<line number="28" hits="0" />
+						<line number="31" hits="0" />
+						<line number="35" hits="0" />
+					</lines>
+				</class>
+				<class name="search.py" filename="todo/views/search.py" complexity="0" line-rate="0.913" branch-rate="0.625">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="2" hits="1" />
+						<line number="3" hits="1" />
+						<line number="4" hits="1" />
+						<line number="6" hits="1" />
+						<line number="7" hits="1" />
+						<line number="10" hits="1" />
+						<line number="11" hits="1" />
+						<line number="12" hits="1" />
+						<line number="16" hits="1" />
+						<line number="18" hits="1" branch="true" condition-coverage="100% (2/2)" />
+						<line number="20" hits="1" />
+						<line number="21" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="30" />
+						<line number="22" hits="1" />
+						<line number="24" hits="1" />
+						<line number="30" hits="0" />
+						<line number="32" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="33" />
+						<line number="33" hits="0" />
+						<line number="36" hits="1" />
+						<line number="39" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="42" />
+						<line number="40" hits="1" />
+						<line number="42" hits="1" />
+						<line number="43" hits="1" />
+					</lines>
+				</class>
+				<class name="task_autocomplete.py" filename="todo/views/task_autocomplete.py" complexity="0" line-rate="0.5238" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="2" hits="1" />
+						<line number="3" hits="1" />
+						<line number="4" hits="1" />
+						<line number="5" hits="1" />
+						<line number="6" hits="1" />
+						<line number="7" hits="1" />
+						<line number="10" hits="1" />
+						<line number="11" hits="1" />
+						<line number="12" hits="1" />
+						<line number="13" hits="0" />
+						<line number="14" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="15,17" />
+						<line number="15" hits="0" />
+						<line number="17" hits="0" />
+						<line number="19" hits="1" />
+						<line number="21" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="22,24" />
+						<line number="22" hits="0" />
+						<line number="24" hits="0" />
+						<line number="26" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="27,29" />
+						<line number="27" hits="0" />
+						<line number="29" hits="0" />
+					</lines>
+				</class>
+				<class name="task_detail.py" filename="todo/views/task_detail.py" complexity="0" line-rate="0.5789" branch-rate="0.3333">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="2" hits="1" />
+						<line number="4" hits="1" />
+						<line number="5" hits="1" />
+						<line number="6" hits="1" />
+						<line number="7" hits="1" />
+						<line number="8" hits="1" />
+						<line number="9" hits="1" />
+						<line number="10" hits="1" />
+						<line number="11" hits="1" />
+						<line number="12" hits="1" />
+						<line number="14" hits="1" />
+						<line number="15" hits="1" />
+						<line number="16" hits="1" />
+						<line number="17" hits="1" />
+						<line number="18" hits="1" />
+						<line number="25" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="29" />
+						<line number="26" hits="1" />
+						<line number="29" hits="1" />
+						<line number="30" hits="1" branch="true" condition-coverage="100% (2/2)" />
+						<line number="31" hits="1" />
+						<line number="33" hits="1" />
+						<line number="37" hits="1" />
+						<line number="44" hits="1" />
+						<line number="47" hits="1" />
+						<line number="48" hits="1" />
+						<line number="49" hits="1" />
+						<line number="53" hits="1" />
+						<line number="54" hits="1" />
+						<line number="58" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="59" />
+						<line number="59" hits="0" />
+						<line number="62" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="63" />
+						<line number="63" hits="0" />
+						<line number="66" hits="1" />
+						<line number="67" hits="1" />
+						<line number="75" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="78" />
+						<line number="76" hits="1" />
+						<line number="78" hits="0" />
+						<line number="79" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="80,81" />
+						<line number="80" hits="0" />
+						<line number="81" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="82,84" />
+						<line number="82" hits="0" />
+						<line number="84" hits="0" />
+						<line number="85" hits="0" />
+						<line number="88" hits="1" />
+						<line number="91" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="94" />
+						<line number="92" hits="1" />
+						<line number="94" hits="0" />
+						<line number="98" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="99,108" />
+						<line number="99" hits="0" />
+						<line number="100" hits="0" />
+						<line number="101" hits="0" />
+						<line number="102" hits="0" />
+						<line number="103" hits="0" />
+						<line number="108" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="109" />
+						<line number="109" hits="0" />
+						<line number="110" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="111,113" />
+						<line number="111" hits="0" />
+						<line number="113" hits="0" />
+						<line number="115" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="116" />
+						<line number="116" hits="0" />
+						<line number="118" hits="1" />
+						<line number="121" hits="1" branch="true" condition-coverage="50% (1/2)" missing-branches="122" />
+						<line number="122" hits="0" />
+						<line number="124" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="125,128" />
+						<line number="125" hits="0" />
+						<line number="126" hits="0" />
+						<line number="128" hits="0" />
+						<line number="130" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="131,134" />
+						<line number="131" hits="0" />
+						<line number="132" hits="0" />
+						<line number="134" hits="0" />
+						<line number="137" hits="0" />
+						<line number="138" hits="0" />
+						<line number="140" hits="1" />
+						<line number="150" hits="1" />
+					</lines>
+				</class>
+				<class name="toggle_done.py" filename="todo/views/toggle_done.py" complexity="0" line-rate="0.5714" branch-rate="0">
+					<methods />
+					<lines>
+						<line number="1" hits="1" />
+						<line number="2" hits="1" />
+						<line number="3" hits="1" />
+						<line number="4" hits="1" />
+						<line number="5" hits="1" />
+						<line number="6" hits="1" />
+						<line number="8" hits="1" />
+						<line number="9" hits="1" />
+						<line number="10" hits="1" />
+						<line number="13" hits="1" />
+						<line number="14" hits="1" />
+						<line number="15" hits="1" />
+						<line number="20" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="21,43" />
+						<line number="21" hits="0" />
+						<line number="23" hits="0" />
+						<line number="29" hits="0" branch="true" condition-coverage="0% (0/2)" missing-branches="35,37" />
+						<line number="35" hits="0" />
+						<line number="37" hits="0" />
+						<line number="38" hits="0" />
+						<line number="40" hits="0" />
+						<line number="43" hits="0" />
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

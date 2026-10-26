@@ -1,0 +1,41 @@
+name: ICT711 Member 3 - SonarQube Cloud (source + saved coverage)
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sonarcloud:
+    name: Analyze django-todo and import Member 3 coverage
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Check source and coverage are included
+        shell: bash
+        run: |
+          test -f todo/models.py || { echo 'Missing todo source! Run prepare-upload.ps1 locally first.'; exit 1; }
+          test -s coverage.xml || { echo 'Missing coverage.xml! Run prepare-upload.ps1 locally first.'; exit 1; }
+          test -f sonar-project.properties || exit 1
+          python3 - <<'PY_CHECK'
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+          root=ET.parse('coverage.xml').getroot()
+          files=[x.get('filename','') for x in root.findall('.//class')]
+          bad=[x for x in files if not Path(x).is_file()]
+          print('Coverage classes:', len(files))
+          print('Source coverage paths on runner:', len(files)-len(bad), 'matched')
+          if not files or bad:
+              print('Missing or mismatched source paths:', bad[:10])
+              raise SystemExit('Coverage XML paths are invalid for this GitHub repository')
+          PY_CHECK
+      - name: Analyze with SonarQube Cloud
+        uses: SonarSource/sonarqube-scan-action@v8.3.0
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}

@@ -1,0 +1,21 @@
+# Keep passwords, virtual environments, local DBs and generated data off GitHub.
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+db.sqlite3
+.coverage
+.coverage.*
+htmlcov/
+evidence/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.scannerwork/
+.sonar/
+.idea/
+.vscode/
